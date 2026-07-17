@@ -32,7 +32,7 @@ lexilearn-ai/
 └── main.py               # Main Entry Point
 ```
 
-<!-- ## Cloning the Repository
+## Cloning the Repository
 
 To clone the repository, run the following command:
 
@@ -69,6 +69,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Thanks to [Mistral AI](https://mistral.ai/) for providing the Mistral API.
 - Thanks to [LangChain](https://github.com/hwchase17/langchain) for the LangChain library.
-- Thanks to [Streamlit](https://github.com/streamlit/streamlit) for the Streamlit library. -->
+- Thanks to [Streamlit](https://github.com/streamlit/streamlit) for the Streamlit library.
 
 LexiLearn-AI is an interactive AI-powered language tutor inspired by Duolingo. Built with Streamlit and Mistral AI, it supports multi-language learning with dynamic difficulty levels (Easy, Medium, Hard). It features instant grammar correction, smart Hinglish/Hindi mistake detection, and a clean chat interface. 🚀
