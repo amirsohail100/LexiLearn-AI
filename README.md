@@ -4,7 +4,7 @@ LexiLearn-AI is a smart, interactive language learning application inspired by D
 
 ## 🚀 Live Application
 
-You can try the live app here: **[[Insert Live Link Here]]**
+You can try the live app here: **[[[Insert Live Link Here](https://lexilearn-ai-rxak3rngf9pynappytfnc9f.streamlit.app/)]]**
 
 ## 📸 Application Preview
 
