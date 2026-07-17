@@ -26,4 +26,22 @@ lexilearn-ai/
 └── main.py               # Main Entry Point
 ```
 
+## Cloning the Repository
+
+To clone the repository, run the following command:
+
+```bash
+git clone https://github.com/amirsohail100/LexiLearn-AI.git
+```
+
+## 💻 Running the Application
+
+To run the application, follow these steps:
+
+1. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 LexiLearn-AI is an interactive AI-powered language tutor inspired by Duolingo. Built with Streamlit and Mistral AI, it supports multi-language learning with dynamic difficulty levels (Easy, Medium, Hard). It features instant grammar correction, smart Hinglish/Hindi mistake detection, and a clean chat interface. 🚀
