@@ -6,6 +6,11 @@ LexiLearn-AI is a smart, interactive language learning application inspired by D
 
 You can try the live app here: **[[Insert Live Link Here]]**
 
+## 📸 Application Preview
+
+![LexiLearn-AI Screenshot](UI.png)
+_(Tip: Replace 'preview.png' with your image path or GitHub asset link)_
+
 ## ✨ Features
 
 - **Adaptive Learning:** Choose between Easy, Medium, and Hard difficulty levels.
@@ -23,6 +28,7 @@ lexilearn-ai/
 ├── requirements.txt      # Lightweight dependencies (Streamlit, LangChain)
 ├── backend.py            # LLM Logic & Dynamic Prompts
 ├── frontend.py           # Streamlit UI Components
+├── UI.py                 # UI image
 └── main.py               # Main Entry Point
 ```
 
@@ -34,14 +40,35 @@ To clone the repository, run the following command:
 git clone https://github.com/amirsohail100/LexiLearn-AI.git
 ```
 
-## 💻 Running the Application
+## 💻 Installation
 
-To run the application, follow these steps:
-
-1. Install the required dependencies:
+1. Install Python 3.10 or higher.
+2. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+3.  Create a `.env` file in the project root directory and add your Mistral API key:
+
+```bash
+MISTRAL_API_KEY = "your_api_key_here"
+```
+
+4. Run the application:
+
+```bash
+streamlit run main.py
+```
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgements
+
+- Thanks to [Mistral AI](https://mistral.ai/) for providing the Mistral API.
+- Thanks to [LangChain](https://github.com/hwchase17/langchain) for the LangChain library.
+- Thanks to [Streamlit](https://github.com/streamlit/streamlit) for the Streamlit library.
 
 LexiLearn-AI is an interactive AI-powered language tutor inspired by Duolingo. Built with Streamlit and Mistral AI, it supports multi-language learning with dynamic difficulty levels (Easy, Medium, Hard). It features instant grammar correction, smart Hinglish/Hindi mistake detection, and a clean chat interface. 🚀
